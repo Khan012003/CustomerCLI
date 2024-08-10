@@ -1,0 +1,19 @@
+{
+  "name": "cli-interface",
+  "version": "1.0.0",
+  "description": "Customer management CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "inquirer": "^10.1.8",
+    "mongoose": "^8.5.2",
+    "prompt": "^1.3.0"
+  }
+}
